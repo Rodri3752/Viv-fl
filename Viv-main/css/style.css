@@ -415,7 +415,7 @@ html {
 }
 
 .banner-container .banner .content h3 {
-    color: #000000;
+    color: #ffffff;
     font-size: 3rem;
 }
 
@@ -760,7 +760,7 @@ html {
 }
 
 .footer .box-container .box h3 {
-    color: rgba(6, 6, 6, 0.503);
+    color: rgb(255, 255, 255);
     text-decoration: underline;
     font-size: 2.5rem;
     padding: 1rem 0;
@@ -775,7 +775,7 @@ html {
 .footer .box-container .box a {
     display: block;
     color: rgba(255, 255, 255, 0.495);
-    font-size: 1.5rem;
+    font-size: 2rem;
     padding: 1rem 0;
 }
 
@@ -1003,6 +1003,9 @@ html {
     .Home .home-slider .box .content h3 {
         font-size: 4.5rem;
     }
+    .fancy {
+        left: 0%;
+    }
 }
 
 @media(max-width:450px) {
@@ -1021,5 +1024,8 @@ html {
     }
     .deal .row .content .count-down .box span {
         font-size: 1.5rem;
+    }
+    .fancy {
+        left: 0%;
     }
 }
